@@ -1,0 +1,67 @@
+$primaryColor: rgb(3, 174, 210);
+$secondaryColor: rgb(104, 210, 232);
+$thirdColor: rgb(253, 222, 85);
+$fourthColor: rgb(254, 239, 173);
+$extraColor: rgb(255,255,255);
+
+
+// main navbar
+
+.main-logo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-container{
+    background-color: $fourthColor;
+    padding: 1.5rem;
+}
+.main-navbar{
+    background-color: $extraColor;
+}
+
+.logo-icon{
+    color: $primaryColor;
+    font-size: 25px;
+}
+
+.navbar-brand{
+    color: $primaryColor!important;
+    font-size: 1.5rem !important; 
+    font-weight: bolder;
+    font-style: italic;
+}
+
+.navbar-search{
+    flex-grow: 1;
+}
+
+.navbar-search {
+
+    display: flex;
+    padding: 0.5rem 0.5rem;
+    border-radius: 8px;
+    gap: 1rem;
+    background-color: #F0F5FF;
+
+    button {
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
+    .input-search-navbar{
+        border: none;
+        outline: none;
+        background-color: transparent;
+    }
+
+}   
+
+.navbar-search button{
+
+}
+
+.navbar-search .input-search-navbar{
+
+}
