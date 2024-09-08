@@ -2,37 +2,39 @@ $primaryColor: rgb(3, 174, 210);
 $secondaryColor: rgb(104, 210, 232);
 $thirdColor: rgb(253, 222, 85);
 $fourthColor: rgb(254, 239, 173);
-$extraColor: rgb(255,255,255);
+$extraColor: rgb(255, 255, 255);
 
 
 // main navbar
 
-.main-logo-container{
+.main-logo-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.icon-container{
+
+.icon-container {
     background-color: $fourthColor;
     padding: 1.5rem;
 }
-.main-navbar{
+
+.main-navbar {
     background-color: $extraColor;
 }
 
-.logo-icon{
+.logo-icon {
     color: $primaryColor;
     font-size: 25px;
 }
 
-.navbar-brand{
-    color: $primaryColor!important;
-    font-size: 1.5rem !important; 
+.navbar-brand {
+    color: $primaryColor !important;
+    font-size: 1.5rem !important;
     font-weight: bolder;
     font-style: italic;
 }
 
-.navbar-search{
+.navbar-search {
     flex-grow: 1;
 }
 
@@ -50,18 +52,31 @@ $extraColor: rgb(255,255,255);
         background-color: transparent;
     }
 
-    .input-search-navbar{
+    .input-search-navbar {
         border: none;
         outline: none;
         background-color: transparent;
     }
 
-}   
-
-.navbar-search button{
-
 }
 
-.navbar-search .input-search-navbar{
+.loginPage-main {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+}
+
+#login-form {
+
+    .password-container{
+        border-bottom: 1px solid black; 
+        padding: 1rem 1rem 0 1rem;
+    }
+
+    .login-password-input , .login-password-input:focus {
+        border: 0 !important;
+        outline: 0 !important;
+        background-color: transparent;
+    }
 
 }

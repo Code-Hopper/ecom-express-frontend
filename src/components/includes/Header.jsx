@@ -1,7 +1,5 @@
 import React from 'react'
-
 import { FaSearch } from "react-icons/fa";
-
 
 const Header = () => {
     return (
@@ -22,7 +20,7 @@ const Header = () => {
                         user actions
                     </div>
                     {/* cart */}
-                    {/* sub menu */}
+                    {/* sub menu */}   
                 </div>
             </nav>
         </>
